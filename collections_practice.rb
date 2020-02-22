@@ -26,11 +26,7 @@ end
 sort_array_char_count(["short", "minuscule", "tiny"])
 
 
-def swap_elements_from_to(array, index, new_index)
-  array[index], array[new_index] = array[new_index], array[index]
-  return array
-end
-swap_elements_from_to(["one", "three", "two"])
+
 
 
 
